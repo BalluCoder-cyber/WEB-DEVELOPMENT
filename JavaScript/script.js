@@ -157,8 +157,8 @@ switch (true) {
  console.log("hip hip hurray!! you find the number... ");
  */
 
-// ARRAYS IN JAVA SCRIPTS..
-
+// Strings IN JAVA SCRIPTS(immutable)..
+/*
 let s = "hy this side balwant"; // it have many method like slice, trim, length,charAt(index), touppercase, toLowercase, replace;
 console.log(s.slice(6));
 console.log(s.length);  // strings 
@@ -186,4 +186,47 @@ console.log(s1.charAt(7));
 let user = prompt("Enter your full name");
 let userName = `@${user}${user.length}`;
 console.log(userName);
+*/
+
+
+// Arrays in javaScript(mutable)...
+/*
+let mark = [55, 33,44,66,77,99];
+console.log(mark);
+console.log(mark[3]);
+
+
+let movie = ["dhurandhar", "raoShaab", "sonOfSardar", "tuMeraHero","Doomsday","Avengers"];
+for(let i of movie){  // forOf loop
+    console.log(i);
+}
+
+//PRACTICE QUE.5--> FOR A GIVEN ARRAY WITH PRICE OF 5 ITEMS ALL ITEMS HAVE AN OFFER OF 10% OFF ON THEM. CHANGE THE ARRAYS TO STORE FIANAL PRICE AFTER APPLYING OFFER.
+let items = [250,645,300,900,50];
+console.log("before discount=", items);
+for(let i =0; i<items.length; i++){
+    let discount = items[i]/10;    items[i] -= discount; 
+}
+console.log("after 10% discount = ", items);  
+
+
+let food=["paneer","pizza","chat","momos","fries"];
+console.log(food);
+food.push("chowmein","dosa","idli");
+console.log(food);
+food.pop();
+console.log(food);
+console.log(food.toString());
+
+let vegetable = ["spinch","tomato","potato"];
+let join= vegetable.concat(food);
+console.log(join);
+console.log( "deleted =", join.shift());
+console.log(join);
+console.log("add = ",join.unshift('gazar'));
+console.log(join);
+console.log(join.slice(4,7));
+console.log(join.splice(7,9,"muli", "bhindi"));
+console.log(join);
+*/
 
