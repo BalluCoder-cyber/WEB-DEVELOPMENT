@@ -78,7 +78,7 @@ if (num % 5 === 0) {
 50-59,D
 0-49,F */
 
-let grade = 44;
+/* let grade = prompt("enter your marks");
 
 switch (true) {
     case grade >= 90:
@@ -96,9 +96,94 @@ switch (true) {
     default:
         console.log("F");
         break;
+} */
+
+/*
+// LOOPS IN JAVA SCRIPT...
+
+//for loop;
+  for(let i = 0; i<4; i++){
+    console.log("this is our first loo ");
+  }    
+  
+// while and do while loop;
+  let x =1;
+  while(x < 10){
+    console.log("I am while");
+    x++;
+  }
+
+// forOf loop ;
+  let element = "ballucoder";
+  let size = 0;
+  for (let i of element) {
+    console.log("i =", i);
+    size++;   
+  }
+  console.log("size of string=", size);
+
+
+
+//forIn loop;
+  let student={
+    name: "ballu",
+    section:"A",
+    rollNumber:"0613CS241044",
+    cource : "Engineering",
+    cgpa: 8.5,
+  }
+  for (let key in student) {
+    console.log("key=",key, "values=",student[key]);
+    
+  }
+    */
+
+
+// PRACTICE QUE.3-->MAKE A GAME TO GUESS THE NUMBER.
+
+/*
+ let number=prompt("Enter the number...");
+ let value= number;
+ let digit= prompt("Guess the numbe...r");
+
+ while(value != digit ){
+   digit=prompt("you guess the wrong number...");
+   if(digit > value){
+       console.log("number is bigger...");
+   }else{
+       console.log("number is lesser...");
+   }
+ }
+ console.log("hip hip hurray!! you find the number... ");
+ */
+
+// ARRAYS IN JAVA SCRIPTS..
+
+let s = "hy this side balwant"; // it have many method like slice, trim, length,charAt(index), touppercase, toLowercase, replace;
+console.log(s.slice(6));
+console.log(s.length);  // strings 
+console.log(s[19]);
+
+
+let obj = {             // creting obj
+    name: "balwant",
+    education: "software engineering",
 }
 
+console.log("name of obj=", obj.name, "education=", obj.education); // normal method to print...
 
+let output = `The name of obj ${obj.name} and  he is pursing ${obj.education}`; // stirng template..
+//let newOutput = output.toUpperCase();
+console.log(output.toUpperCase());
 
+let s1 = "first part";
+let s2 = "second part"; // add two string...
+console.log(s1.concat(s2));
+console.log(s2.replace("s", "t"));
+console.log(s1.charAt(7));
 
+//PRACTICE QUE.4--> PROMPT THE USER TO ENTER THEIR FULL NAME. GENERATE A USERNAME FOR THEM BASED ON THE INPUT START USERNAME WITH @ FOLLOWED BY THEIR NAEM AND ENDING WITH THE LENGTH OF NAME.
+let user = prompt("Enter your full name");
+let userName = `@${user}${user.length}`;
+console.log(userName);
 
