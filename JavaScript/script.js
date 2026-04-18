@@ -230,3 +230,86 @@ console.log(join.splice(7,9,"muli", "bhindi"));
 console.log(join);
 */
 
+/*
+// FUNCTION IN JS...
+function sum(a, b) {
+  console.log(a + b);
+}
+sum(4, 5);
+
+function multi(c, d) {
+  let m = c * d;
+  return m;
+}
+let multiply = multi(8, 8);
+console.log(multiply)
+
+const functionArrow = (g, h) => {
+
+  return g * h;
+};
+console.log(functionArrow(555555555, 66));
+
+//PRACTICE QUE.6-->CREATE A FUNCTION USING "FUNCTION"KEYWORD THAT TAKS A STRING AS AN ARGUMENTS AND RETURNS NUMBER OF VOWELS IN STRIGN.
+function vowelsCount(s) {
+  let count = 0;
+  for (let i = 0; i < s.length; i++) {
+    console.log(s[i]);
+    if (s.charAt(i) === "e" || s[i] === "i" || s[i] === "o" || s[i] === "a" || s[i] === "u") {
+      count++;
+    }
+  }
+  let val = console.log("vowel in string are = ", count);
+  return val;
+}
+vowelsCount("sullullululuuuooo");
+
+let arr = [44, 55, 66, 77, 22];
+arr.forEach((num) => {
+  console.log(num)
+})
+
+let verr = ["nmuber", "baby", "so cute", "gadhe ka bacha"];
+verr.forEach((num, i, verr) => {
+  console.log(num.toUpperCase(), i, verr);
+})
+
+let numarr = [2, 4, 5, 6, 7];
+numarr.forEach((n) => {
+  console.log(n ** 3);
+})
+
+let m = [8, 4, 9, 2, 1];
+let marr = m.map((digit) => {
+  return digit * 2;
+})
+console.log(marr);
+
+let v = m.filter((even) => {
+  return even % 2 == 0;
+})
+console.log(v);
+
+let r = m.reduce((pre, curr) => {
+  return pre + curr;
+});
+console.log(r);
+
+//PRACTICE QUE.7--> TAKE A NUMBER N AS INPUT FROM USER. CREATE AN ARRAY OF NUMBER FROM 1 TO N. USE TEH REDUCE METHOD TO CALCULATE SUM OF ALL NUMBER IN THE ARRAY. USE THE REDUCE METHOD TO CALCUALATE PRODUCT OA ALL NUMBER IN THE ARRAY.
+let n = prompt("enter any number in between 1-50");
+let arrq = [];
+for(let i = 0; i<n; i++){
+  arrq[i]= i+1;
+}
+ console.log("array = ", arrq);
+
+let q = arrq.reduce((pre,curr)=>{
+  return pre + curr;
+});
+console.log("sum of arrq = ",q);
+
+let p = arrq.reduce((product,curr)=>{
+  return product * curr;
+});
+console.log("product of arrq = ",p);
+*/
