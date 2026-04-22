@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h2{
+   background-color: black;
+   text-align: center;
+   font-size: 1cm;
+   color: white;
+  
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 80px;
+
+}
+.emoji{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 75px;
+
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+
+}
+#userscore,#compscore{
+    font-size: 0.5cm;
+}
+
