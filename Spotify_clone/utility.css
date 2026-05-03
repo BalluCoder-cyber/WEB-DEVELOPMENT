@@ -35,3 +35,49 @@
     height: 44px;
 
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.leftmiddle{
+    height: 300px;
+    border: 2px solid blue;
+    overflow: auto;
+
+}
+.footleft ul li{
+    margin: 8px;
+
+}
+.leftfootbt{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 17px;
+
+
+}
+.fbt{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 33px;
+    width: 150px;
+    
+    
+}
+.fbt div img{
+    height: 25px;
+    width: 25px;
+}
+.fbt span{
+    font-size: large;
+    font: bold;
+}
