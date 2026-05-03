@@ -1,0 +1,37 @@
+.hblogo {
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+    background-color: rgb(254, 255, 254);
+}
+
+.serlogo {
+    height: 45px;
+    width: 20rem;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.serdiv {
+    display: flex;
+    align-items: center;
+    color: white;
+
+
+
+}
+
+.serlogo {
+    background-color: white;
+    background-color: #fff9f9;
+    color: rgb(14, 14, 14);
+}
+
+.slogo {
+    background-color: rgb(25, 249, 4);
+    color: rgb(240, 235, 235);
+    height: 44px;
+
+}
