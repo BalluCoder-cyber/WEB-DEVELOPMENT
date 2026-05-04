@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: rgb(193, 191, 191);
+    background-color: rgb(0, 0, 0);
 
 }
 
@@ -86,22 +86,19 @@ body {
 
 .leftbar {
     width: 20%;
-    height: 100%;
-    border: 2px solid red;
+    height: 100%; 
     margin-left: 10px;
+    background-color: rgb(24 22 22);
 }
 
-.rightbar {
-    width: 80%;
-    height: 100%;
-    border: 2px solid red;
-    margin-right: 10px;
-}
+
 
 .topleft {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: white;
+
 }
 
 .topleft button {
@@ -114,8 +111,11 @@ body {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    border: 2px solid green;
+  
     margin: 20px;
+    color: white;
+    background-color: #2a2a2a;;
+    border-radius: 15px;
 
 }
 
@@ -139,8 +139,12 @@ body {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    border: 2px solid green;
+   
     margin: 20px;
+    color: white;
+    background-color: #2a2a2a;
+    border-radius: 15px;
+
 }
 .secblock h3 {
     margin: 6px;
@@ -157,4 +161,66 @@ body {
     font-size: large;
      border-radius: 33px;
 
+}
+.rightbar {
+    width: 80%;
+    height: 100%;
+    border: 2px solid red;
+    margin-right: 10px;
+    margin-bottom: auto;
+}
+.righttop{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 0 20px;
+    
+}
+.card{
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+    color: white;
+    overflow-x: auto;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    margin: 7px;
+}
+.card::-webkit-scrollbar-button{
+    display: none;
+}
+
+.imgcard{
+    display: flex;
+    flex-direction: row; 
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    gap: 5px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+     -webkit-overflow-scrolling: touch;
+      scroll-snap-type: x mandatory;
+}
+.imgcard::-webkit-scrollbar {
+  display: none;
+}
+.imgcard > div {
+  flex: 0 0 auto;           
+  width: 180px;               
+}
+
+
+.imgcard img{
+    height: 165px;
+    width: 165px;
+    border-radius: 6px;
+}
+.imgcard h3{
+    margin: 5px 0;
+}
+.imgcard p{
+    margin-top: 5px;
 }
