@@ -37,49 +37,44 @@
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
+   display: flex;
+   gap: 10px;
+    
+    
+   
+  
 }
 .leftmiddle{
-    height: 300px;
-  
-    overflow: auto;
+    
+    overflow: hidden;
+    max-width: 282px;
+    height: 449px;
+    border: 2px solid blueviolet;
+       
 
+}
+.leftmiddle ul{
+    list-style: none;
+   
+   
+}
+.footleft{
+    display: flex;
+    border: 2px solid orange;
+    align-items: center;
+    box-sizing: border-box;
+  
+    
+  
+  
 }
 .footleft ul li{
-    margin: 5px;
     color: white;
-
-}
-.leftfootbt{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    margin: 17px;
-
-
-}
-.fbt{
-    display: flex;  
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
-    gap: 10px; 
-    padding: 5px;
-    border-radius: 33px;
+    text-decoration: none;
+    list-style: none;
    
-    
-    
 }
-.fbt div img{
-    height: 20px;
-    width: 20px;
-}
-.fbt p{
-    font: bold;
-}
+
 .artistCard{
     display: flex;
     max-width: 100%;
@@ -125,4 +120,8 @@
 }
 .artistimgcard h3{
     margin: 5px 0;
+}
+.leftmiddle{
+    display: flex;
+    color: white;
 }

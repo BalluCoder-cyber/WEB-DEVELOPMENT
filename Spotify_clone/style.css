@@ -86,9 +86,9 @@ body {
 
 .leftbar {
     width: 20%;
-    height: 100%; 
-    margin-left: 10px;
+    height: 89.9vh; 
     background-color: rgb(24 22 22);
+    border: 2px solid palevioletred;
 }
 
 
@@ -105,62 +105,6 @@ body {
     font-size: 26px;
     border-radius: 35px;
     width: 35px;
-}
-
-.firstblock {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-  
-    margin: 20px;
-    color: white;
-    background-color: #2a2a2a;;
-    border-radius: 15px;
-
-}
-
-.firstblock h3 {
-    margin: 6px;
-}
-
-.firstblock p {
-    margin: 6px;
-}
-
-.firstblock button {
-    margin: 15px;
-    padding: 10px;
-    font: bold;
-    font-size: large;
-    border-radius: 33px;
-}
-
-.secblock {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-   
-    margin: 20px;
-    color: white;
-    background-color: #2a2a2a;
-    border-radius: 15px;
-
-}
-.secblock h3 {
-    margin: 6px;
-}
-
-.secblock p {
-    margin: 6px;
-}
-
-.secblock button {
-    margin: 15px;
-    padding: 10px;
-    font: bold;
-    font-size: large;
-     border-radius: 33px;
-
 }
 .rightbar {
     width: 80%;
@@ -223,4 +167,31 @@ body {
 }
 .imgcard p{
     margin-top: 5px;
+}
+.songlist ul li{
+    margin: 10px;
+    cursor: pointer;
+}
+.play{
+    display: flex;
+    position:fixed;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    height: 50px;
+    width: 80%;
+    background-color: rgb(176, 172, 172);
+    gap: 20px;
+   
+}
+.pl img{
+    height: 35px;
+}
+.pr img{
+    height: 35px;
+
+}
+.gana img{
+    height:35px;
 }
